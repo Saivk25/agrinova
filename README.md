@@ -197,3 +197,40 @@ See above ASCII diagram. A high-resolution version is available in the presentat
 **Private — Hackathon use only.**
 
 This project was developed for the VIT Chennai Hackathon 2026. All rights reserved. Not licensed for commercial use or redistribution without explicit permission from the team and Birdscale Technology and Services Pvt. Ltd.
+
+
+
+# Landroid — AI-Powered Land Intelligence Platform
+
+Birdscale Technology × VIT Chennai Hackathon 2026
+
+## Overview
+Landroid is an AI-powered mobile application for land health monitoring, plant intelligence, and land valuation. Built on Birdscale-provided drone geospatial datasets and free open APIs.
+
+## Team
+VIT Chennai | Team: Agrinova
+
+## Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Mobile | React Native (Expo + TypeScript) |
+| Map | MapLibre GL |
+| Backend | FastAPI (Python) |
+| Database | Supabase + PostGIS |
+| Auth | Firebase Authentication |
+| Storage | Supabase Storage |
+| Notifications | Firebase Cloud Messaging |
+
+## AI Modules
+1. Land Health Dashboard — NDVI (40%) + Rainfall (30%) + Soil (20%) + Temperature (10%) — 3-year Sentinel-2 trend
+2. Plant Health Zone Map — NDVI classification: Bare/Sparse/Healthy/Dense with % area
+3. Tree & Canopy Count — OpenCV watershed on Birdscale orthomosaic
+4. Land Valuation — 5-factor formula: Health + Soil + Rainfall + OSM Proximity + VIIRS
+
+## Data Sources
+- Birdscale Technology — Orthomosaic COG, DEM, Boundary GeoJSON
+- Microsoft Planetary Computer — Sentinel-2, CHIRPS, ERA5, VIIRS
+- ISRIC SoilGrids REST API
+- OpenStreetMap Overpass + Nominatim
+
+## Environment Variables Required
