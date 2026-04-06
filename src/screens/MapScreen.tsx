@@ -28,16 +28,8 @@ export default function MapScreen() {
   const badgeColor = hl === 'Healthy' ? '#15803d' : hl === 'Moderate' ? '#d97706' : '#dc2626';
 
   // Try to load MapLibre — falls back gracefully if not available
-  let MapLibreAvailable = false;
-  let MapLibreGL: any = null;
-  try {
-    MapLibreGL = require('@maplibre/maplibre-react-native');
-    MapLibreGL.default.setAccessToken(null);
-    MapLibreAvailable = true;
-  } catch (e) {
-    MapLibreAvailable = false;
-  }
-
+  const MapLibreAvailable = false; // Force placeholder in Expo Go
+const MapLibreGL: any = null;    // Will be enabled in production APK
   const boundaryGeojson = {
     type: 'FeatureCollection',
     features: [{
