@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693275493219",
+    "project_id": "landroid-7658f",
+    "storage_bucket": "landroid-7658f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693275493219:android:4f29c7c3e31b0c13cac956",
+        "android_client_info": {
+          "package_name": "com.saibalaji25.landroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693275493219-82jsukbcaql8kpuhbmavi36mv9brnq3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb3F8bt_80Ur_zGp-aQTOf6vrvGyMBKoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693275493219-82jsukbcaql8kpuhbmavi36mv9brnq3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
