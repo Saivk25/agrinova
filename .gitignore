@@ -1,0 +1,10 @@
+﻿.env
+*.json
+node_modules/
+.expo/
+dist/
+*.tif
+*.geojson
+landroid-*.json
+service-account*.json
+google-services.json
